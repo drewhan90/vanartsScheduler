@@ -1,0 +1,37 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Vanarts Scheduler</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <header class="app-header">
+            <img src="assets/vanarts_logo.png" alt="Vanarts">
+            <h1>add class</h1>
+        </header>
+        <section class="app-addClass app-section">
+            <form>
+                <label for="className">class name</label>
+                <input type="text" id="className" name="className"/>
+
+                <label for="instructorName">class name</label>
+                <input type="text" id="instructorName" name="insructorName"/>
+
+                <label for=""></label>
+                <div class="tab-days">
+                    <a class="tab-links">m</a>
+                    <a class="tab-links">t</a>
+                    <a class="tab-links">w</a>
+                    <a class="tab-links">th</a>
+                    <a class="tab-links">f</a>
+                </div>
+                <div>
+                    <input type="time" name="startTime"/>
+                    -
+                    <input type="time" name="endTime"/>
+                </div>
+                <input type="submit" class="submit" name="submit" placeholder="add class"/>
+            </form>
+        </section>
+    </body>
+</html>

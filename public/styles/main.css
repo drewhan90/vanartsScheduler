@@ -20,18 +20,18 @@ body {
     color: #FFF;
 }
 
-h1, h2, h3 {
+h1, h2, h3, label, .btn-primary {
     font-family: 'lato-bold', sans-serif;
 }
 
 h1 {
-    padding: 100px 0;
+    padding: 55px 0 90px 0;
     font-size: 620%;
     color: #DD3531;
     text-transform: uppercase;
 }
 
-h2, label {
+h2, label, .btn-primary {
     font-size: 370%;
     text-transform: uppercase;
 }
@@ -43,14 +43,14 @@ h3 {
 }
 
 h4 {
-    font-size: 310%;
+    font-size: 280%;
     line-height: 1.6;
     font-weight: initial;
     text-transform: capitalize;
 }
 
-p {
-    font-size: 120%;
+p, input {
+    font-size: 200%;
 }
 
 a {
@@ -58,11 +58,17 @@ a {
     text-decoration: none;
 }
 
+label {
+    display: inline-block;
+    margin: 25px 0;
+}
+
 input {
     width: 100%;
     height: 80px;
     background-color: #FFF;
     border: none;
+    text-indent: 30px;
 }
 
 /* === LAYOUT === */
@@ -92,8 +98,8 @@ input {
     text-align: center;
 }
 
-.app-addClass {
-    padding: 80px 50px;
+.app-addClass, .app-editClass, .item {
+    padding: 50px;
 }
 
 /* === MODULE === */
@@ -101,10 +107,8 @@ input {
     display: inline-block;
     margin: 90px 0;
     width: 100%;
-    height: 45px;
     background-color: #666666;
     color: #FFF;
-    text-transform: uppercase;
 }
 
 .nav-left {
@@ -126,11 +130,11 @@ input {
 }
 
 
-.btn-addClass { /* Class page, add class btn */
+.btn-add { /* Class page, add class btn */
     display: inline-block;
     position: fixed;
-    width: 55px;
-    height: 55px;
+    width: 120px;
+    height: 120px;
     right: 20px;
     bottom: 20px;;
     border-radius: 50%;
@@ -156,13 +160,13 @@ input {
     text-align: right;
 }
 
-.item-title {
+.item-title, .item-desc {
     display: inline-block;
     width: 100%;
 }
 
-.item {
-    padding: 20px;
+.item a {
+    display: inline-block;
     width: 100%;
 }
 
@@ -200,4 +204,16 @@ input {
 .add-time {
     display: inline-block;
     width: 30%;
+}
+
+/* PAGE CLASS INFO */
+
+.info-desc {
+    overflow: auto;
+    padding: 50px;
+    background-color: #777777;
+}
+
+.info-dateTime {
+
 }

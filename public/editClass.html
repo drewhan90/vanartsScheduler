@@ -1,16 +1,18 @@
 <!DOCTYPE>
 <html>
     <head>
-        <title>Vanarts Scheduler - add class</title>
+        <title>Vanarts Scheduler - edit class</title>
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
         <header class="app-header">
             <img src="assets/vanarts_logo.png" alt="Vanarts">
-            <h1>add class</h1>
+            <h1>edit class</h1>
         </header>
-        <section class="app-addClass app-section">
-            <form id="form-addClass">
+        <section class="app-editClass app-section">
+            <form id="form-editClass">
+                <input type="hidden" id="id"/>
+
                 <label for="className">class title</label>
                 <input type="text" id="className" name="className"/>
 
@@ -27,12 +29,13 @@
                 </div>
                 <div class="tab-content">
                     <label>time</label>
-                    <input type="hidden" id="day" name="day" value="m"/>
+                    <input type="hidden" id="day"/>
                     <input type="time" id="startTime" class="add-time" name="startTime"/>
                     -
                     <input type="time" id="endTime" class="add-time" name="endTime"/>
                 </div>
-                <input type="submit" id="add" class="submit-addClass btn-primary" name="submit" value="add"/>
+                <input type="submit" id="edit" class="edit-addClass btn-primary" name="edit" value="edit class"/>
+                <input type="submit" id="delete" class="delete-addClass" name="delete" value="delete"/>
             </form>
         </section>
         <script src="js/jquery.min.js"></script>

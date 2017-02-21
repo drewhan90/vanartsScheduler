@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "webpack --watch && npm start"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
   },
   "homepage": "https://github.com/drewhan90/vanartsScheduler#readme",
   "dependencies": {
-    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^2.0.40"
   }
 }

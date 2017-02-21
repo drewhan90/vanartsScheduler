@@ -25,6 +25,7 @@ h1, h2, h3 {
 }
 
 h1 {
+    padding: 100px 0;
     font-size: 620%;
     color: #DD3531;
     text-transform: uppercase;
@@ -43,6 +44,7 @@ h3 {
 
 h4 {
     font-size: 310%;
+    line-height: 1.6;
     font-weight: initial;
     text-transform: capitalize;
 }
@@ -97,6 +99,7 @@ input {
 /* === MODULE === */
 .btn-primary { /* CTA btn on home */
     display: inline-block;
+    margin: 90px 0;
     width: 100%;
     height: 45px;
     background-color: #666666;
@@ -107,12 +110,14 @@ input {
 .nav-left {
     float: left;
     width: 50%;
+    height: 50%;
     background-color: #DD3531;
 }
 
 .nav-right {
     float: right;
     width: 50%;
+    height: 50%;
     background-color: #D22723;
 }
 

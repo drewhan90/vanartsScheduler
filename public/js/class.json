@@ -1,0 +1,18 @@
+{
+    "class1" : {
+        "id": 1,
+        "name": "javascript",
+        "instructor": "James Finn",
+        "days": {
+            "m": true,
+            "t": true,
+            "w": false,
+            "th": false,
+            "f": false
+        },
+        "time": {
+            "start": "9 : 00 AM",
+            "end": "12 : 00 PM"
+        }
+    }
+}

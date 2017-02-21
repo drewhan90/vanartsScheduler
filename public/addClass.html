@@ -1,8 +1,8 @@
 <!DOCTYPE>
 <html>
     <head>
-        <title>Vanarts Scheduler</title>
-        <link rel="stylesheet" href="main.css">
+        <title>Vanarts Scheduler - add class</title>
+        <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
         <header class="app-header">
@@ -10,14 +10,14 @@
             <h1>add class</h1>
         </header>
         <section class="app-addClass app-section">
-            <form>
-                <label for="className">class name</label>
+            <form id="form-addClass">
+                <label for="className">class title</label>
                 <input type="text" id="className" name="className"/>
 
-                <label for="instructorName">class name</label>
+                <label for="instructorName">instructor</label>
                 <input type="text" id="instructorName" name="insructorName"/>
 
-                <label for=""></label>
+                <label for="">date</label>
                 <div class="tab-days">
                     <a class="tab-links">m</a>
                     <a class="tab-links">t</a>
@@ -25,13 +25,17 @@
                     <a class="tab-links">th</a>
                     <a class="tab-links">f</a>
                 </div>
-                <div>
-                    <input type="time" name="startTime"/>
+                <div class="tab-content">
+                    <label>time</label>
+                    <input type="time" class="add-time" name="startTime"/>
                     -
-                    <input type="time" name="endTime"/>
+                    <input type="time" class="add-time" name="endTime"/>
                 </div>
-                <input type="submit" class="submit btn-primary" name="submit" placeholder="add class"/>
+                <input type="submit" class="submit-addClass btn-primary" name="submit" placeholder="add class"/>
             </form>
         </section>
+        <script src="js/jquery.min.js"></script>
+        <script src="../server.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

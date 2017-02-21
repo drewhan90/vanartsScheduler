@@ -1,0 +1,27 @@
+{
+  "name": "vanartsScheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewhan90/vanartsScheduler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drewhan90/vanartsScheduler/issues"
+  },
+  "homepage": "https://github.com/drewhan90/vanartsScheduler#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
